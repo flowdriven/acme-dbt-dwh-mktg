@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: MARKETING_INSIGHTS
+    database: acme-dbt-dwh-mktg
+    schema: MARKETING_INSIGHTS
+    tables:
+    - name: customers
+    - name: discountCoupon
+    - name: marketingSpend
+    - name: onlineSales
